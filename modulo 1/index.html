@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MODULO 1</title>
+  <link rel="icon" href="favicon.png" type="image/png"> <!--Tem que estar o index e a imagem na mesma pasta-->
+  <link rel="stylesheet" href="modulo1.css">
+</head>
+<style>
+  mark{
+    background-color:cornflowerblue ;
+  }
+</style>
+<body>
+  <div class="começo"><h1>RESUMO SOBRE AS AULAS &#x1F601;</h1> <!--Pra colocar as tags mais rapido use: Ctrl + Shift + P-->
+  <!--Para selecionar varias tags de uma vez segure Alt e selecione as tags desejadas-->
+  <!--Pra selecionar e usar um arquivo use o atalho Ctrl + Espaço -->
+  <!--Pra criar um novo arquivo rapido faça um link do arquivo, coloque o nome e aperte Crtl + Clique em cima do arquivo-->
+  <p> Bom aprendi bastante já, aprendi que se voce usa as tags
+    &lt;p&gt; e &lt;/p&gt; elas adicionam um paragrafo.
+  </p>
+  <p> Agora se voce no meio do paragrafo adicionar um &lt;br&gt; 
+    <!--LESS THAN / GREATER THAN -->
+    o texto faz uma <br> quebra de linha como essa que eu fiz.
+  </p>
+  <h2> Adicionando Simbolos </h2> <!--ISSO É UM TESTE-->
+  <p> Para Adicionar Simbolos primeiro precisa <br> adicionar o & comercial e o nome do simbolo 
+  <BR>EX:</p>
+    &reg;
+    &copy;
+    &trade; <!--TM-->
+    &euro; <!--Moeda-->
+    &pound; <!--Libra-->
+    &yen; <!--Moeda Japonesa-->
+    &cent; <!--Centavo Americano-->
+    </p>
+<h2> Agora vamos adicionar Emojis </h2>
+<p> Agora para adicionar emojis voce precisa adicionar os seguintes simbolos:<br> &#x e o codigo do emoji que voce encontra no site Emojipedia <br> EX: </p>
+<p> &#x1F600;
+    &#x1F60E;
+    &#x1F919;  
+  </p>
+
+  <h1> Adicionando Imagens </h1>
+<p> Bom agoara vamos adicionar iamgens de jeitos diferentes <br> como ESSAS : </p>
+<img src="html 5 200 .png" alt="Logo Html 5"> <!--Salva em uma sub-pasta dentro do arquivo index-->
+<img src="css3-200.webp" alt="Logo Css 3"> <!--Salva dentro do arquivo index--> <img src="java.webp" alt="Logo do Java script"> <!--Era para adicionar com link, mas ia ficar muito grande-->
+<h1> Hierarquia de texto </h1>
+<h2> Quais são? </h2>
+<h3> Existe 6 tipos de tags &lt;h&gt;</h3>
+<h4> A tag &lt;h1&gt; para titulos, &lt;h2&gt; para subtitulos, &lt;h3&gt; para escrever um titulo menor, e &lt;h4&gt; para coisas menores. Tambem tem h5 e h6 mas poucos usam </h4>
+<p> E tem os paragrafos como esse que eu posso fazer isso para criar um paragrafo aleatorio... Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempore facere dignissimos deserunt ab inventore, quae quia dolorem doloremque nisi asperiores nam ratione totam deleniti doloribus tempora quasi neque voluptates?</p> <!--Use Lorem para  fazer um paragrafo aleatorio--> </div>
+<div class="meio"><h2> Semantica </h2>
+<p> Com a evolução do html 5 algumas tags foram 
+  consultar o site da WWW3C clicando aqui em baixo</p>
+  <a href="https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html"> WWW3C CLIQUE AQUI </a> 
+  <h2> Para utilizar Negrito e Italico </h2>
+  <p> Para utilizar o <strong>Negrito</strong> basta utilizar a tag <strong>STRONG</strong> (possui semantica) </p>
+  <p> Para Utilizar a <em>italico</em> basta utilizar a tag <em>EM</em> (possui semantica) </p> 
+  <h2>  Marcação igual marca texto </h2>
+  <p> Para marcar um texto como se fosse um marca texto <br> igual esse <mark style="background-color:gold">texto marcado</mark> utiliza a tag &lt;mark&gt;. </p>
+  <p> Mas se voce quiser uma marcação de outra cor <mark style="background-color:cyan">como essa por exemplo</mark> voce tem que fazer o comando de background-color </p>
+  <p> Agora se <mark>voce que uma marcação</mark> com <mark>todos da mesma cor</mark> mas sem prejudicar outro texto grifado, voce vai precisar fazer uma tag &lt;Style&gt; </p> <!--A tag style tem que ta dentro de <head> -->
+   <h2> Texto Pequeno </h2>
+   <p> Não tem muito segredo digite a tag samll e <small>pronto seu texto estara pequeno</small> </p>
+   <h2> Texto Deletado </h2>
+   <p> Para um texto aparentar estar deletado <del>como esse exemplo aqui</del> usamos a tag Del </p>
+   <h2>Texto Inserido</h2>
+   <p> a tag <ins>INS serve para sublinhar um texto</ins> </p>
+   <h2> Texto Sobrescrito </h2>
+   <p> Para inserir coisas do tipo x<sup>20</sup>+30 usa a tag Sup </p>
+   <h2> Texto Subescrito </h2>
+   <p> Para coisas do tipo H<sub>2</sub>O usa a tag Sub</p>
+  <h2> Outras Formatações </h2>
+   <h3> Codigo Fonte/ Pré Formatações</h3>
+   <p> Existe por exemplo se voce quiser escrever um codigo em JavaScript para quem ve o site, e quer que fique bonitinho. Digite primeiro o codigo Code EX: <br>
+    O comando <code>document.getElemetyByld ('teste')</code> é escrito em liguagem JavaScript <!--Na real não entendi muito bem esse comando-->
+    E no caso de querer deixar ele no meio use o comando Code dentro de uma tag &lt;Pre&gt;<!--Eu realmente não faço minima ideia da utilidade disso -->
+   </p>
+<h2>Interações Simples...</h2>
+<p> Como eu ja falei pra mim mesmo uma vez <q>Eu tentava fugir de mim mesmo mas onde eu ia, eu tava</q></p>
+<h2> Citações Completas </h2>
+<p> Segundo um livro escrito por um estranho que dizia</p>
+<blockquote cite="https://www.google.com.br/books/edition/33_estratégias_de_guerra/NNNOEAAAQBAJ?hl=pt-BR&gbpv=0"> <!--Isso quem acessa o site não ve mas quem desenvolve consegue ascessar o link-->
+  <q>A algo de estranho no desconhecido</q><br>
+  a tag Blockquote é só pra deixar a citação <br> no meio.
+</blockquote>
+<h2> Abreviações</h2>
+<p> Para abreviar é bem facil por exemplo: <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> e <abbr title="JavaScript">JS</abbr> só adicionar a tag ABBR. </p>
+<h2> A tag mais inutil (Invertido)</h2>
+<p> <bdo dir="rtl"> Meu nome é Stnex e quero me tonar um programador Full-Stack </bdo> para fazer isso só usae a tag BDO junto com DIR e digitar <q>rtl</q> </p>
+
+  <h2> Links para navegar no site</h2> <!--Quando voce for fazer um codigo usando links em um programa dentro de uma pasta diferente, utilizando "href" precisa usar a linguagem Linux ..// -->
+  <p> Voce gostou do conteudo? <a href="pg2.html" rel="next" target="_self">Conifa o proximo</a> <!--Use Self para mostrar que é na mesma aba-->
+    <br> acesse nossa<a href="NOTICIAS/pg3.html" target="_self"> pagina de noticias</a>
+  </p></div>
+</body>
+</html>
+

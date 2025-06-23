@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Segunda pagina</title>
+  <link rel="icon" href="favicon.png" type="image/png"> <!--Tem que estar o index e a imagem na mesma pasta-->
+  <link rel="stylesheet" href="modulo1.css">
+
+</head>
+<body>
+
+ <div class="começo"><h2> Listas </h2>
+  <h3> Listas Ordenadas </h3> <!--Listas que possuem ordem-->
+  <ol type="I"> <!--Tipos: 1, A, a, I, i -->
+    <li> Acordar </li>
+    <li> Ir para a escola </li>
+    <li> Chegar em casa </li>
+    <li> Almoçar </li>
+    <li> Ir para o curso </li>
+    <li> Chegar em casa </li>
+    <li> Tomar banho </li>
+    <li> Ir para o curso </li>
+    <li> Cheagar em casa e ir dormir </li>
+  </ol>
+  <h3> Listas Não Ordenadas </h3> <!-- Listas que não possuem ordem-->
+  <ul type="circle"> <!--Tipos: Disc, Circle e Square-->
+   <li> Monitor </li>
+   <li> Pc </li>
+   <li> Teclado </li>
+   <li> Mouse </li>
+   <li> Fone </li>
+  </ul>
+  <h3> Listas dentro de listas </h3>
+    <ol> 
+      <li> Linguagens que to aprendendo</li>
+      <ol type="a"> 
+        <li> Html 5 </li>
+        <li> Css 3</li>
+        <li> JavaScript</li>
+      </ol>
+      <li > Linguagens que quero aprender</li>
+      <ol type="a"> 
+        <li> Python </li>
+        <li> Java </li>
+        <li> Php </li>
+      </ol>
+    </ol>
+   <h3>Meus jogos Favoritos</h3> 
+   <ol>
+    <li> Samurai </li>
+    <ul>
+      <li> Ghost of Tsushima</li>
+      <li> Sekiro </li>
+    </ul>
+    <li> Online </li>
+    <ul> 
+      <li> Clash Royale </li>
+      <li> Minecraft </li>
+    </ul>
+    <li> Ação e Tiro </li>
+    <ul>
+      <li> Free Fire </li>
+      <li> Cod: Warzone</li>
+    </ul>
+   </ol>
+   <h3> Lista de Definição </h3>
+   <dl>
+    <dt>HTML</dt>
+    <dd> Uma ferramenta que monta o esqueleto de um site </dd>
+    <dt>CSS</dt>
+    <dd> Uma ferramenta que monta o design de um site </dd>
+    <dt>JavaScript</dt>
+    <dd> Ele faz e deixa mais interativo com botões para ficar legal o site </dd>
+   </dl>
+</body>
+<body></div> 
+ <div class="meio"> <h2> Links e Ancoras </h2> <!--Quando voce for fazer um codigo usando links em um programa dentro de uma pasta diferente utilizando "href" precisa usar a linguagem Linux ..// -->
+  <p> Para adicionar <a href="https://github.com/Stenex077/Curso-Senac" target="_blank" rel="external"> <!--O target="blank" é para abrir uma pagina em branco. E o rel="external" para brir uma nova guia externa-->um link como esse</a> uiliza a tag &lt;a&gt; </p> <!--Voce não pode esquecer que o link tem que ta dentro da primeira tag a-->
+  <p>Se voce quiser voltar ao inicio clique aqui <a href="index.html" rel="prev">Voltar para a primeira pagina</a> Se voce quiser ir para pagina de noticias <a href="pg3.html" target="_self">clique aqui</a> </p>
+</body>
+<body>
+<h2>Criando imagens Adaptdas</h2>
+<picture>
+  <source media="(max-width: 750px)" srcset="imagem-p.png" type="image/png">
+  <source media="(max-width: 1050px)" srcset="imagem-m.png" type="image/png">
+  <img src="imagem-g.png" alt="Imagem Flexivel">
+</picture>
+<h2> Carregando Audio </h2>
+<h3> Forma 1 </h3>
+<audio src="audio/I Need You - Dyalla.mp3" controls autoplay> </audio><!--Precisa utilizar a tag audio e adicionar o controls e o autoplay-->
+<h3> Forma 2 </h3>
+
+<audio preload="none" controls autoplay loop> <!--metadata é o indicado para usar e o loop é para quando o audio terminar ele começar de novo-->
+  <source src="audio/I Need You - Dyalla.mp3" type="audio/mpeg">
+  <source src="audio/I Need You - Dyalla.ogg" type="audio/ogg"> <!--Existe a tipo MP3, OGG e WAV (O Wav não é recomendado)-->
+</audio>
+<h2>Colocando video </h2> <!--É igual o audio, mas usa a tag video-->
+<video src="audio/video-carro720.mp4" width="500" controls poster="audio/capa-bmw.jpg">
+</video><!--Use poster para colocar a capa do seu video e controls para aperta os botões de play-->
+
+<video width="500" poster="audio/capa-bmw.jpg" controls> <!--Coloque diferentes formatos de videos para diferentes tipos de navegadores-->
+  <source src="audio/video-carro720.mp4" type="video/mp4">
+  <source src="audio/video-carro720.webm" type="video/webm"> <!--Use poster para colocar a capa do seu video e controls para aperta os botões de play-->
+</video>
+<h2> Inserindo video do Youtube</h2> <!--É a coisa mais facil de se fazer-->
+<iframe width="500" height="300" src="https://www.youtube.com/embed/WNVyy8vmeAU?si=1TpKmadEqEQ9cIU6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!--Só voce copiar e inserir o codigo que o Youtube te da, apertando la em compartihar-->
+<iframe  width="500" height="300"  title="vimeo-player" src="https://player.vimeo.com/video/349744550?h=624c92b363" width="640" height="360" frameborder="0"    allowfullscreen></iframe><!--Pelo Vimeo é a mesma coisa que o do youtube-->
+</body>
+<body >
+  <h1> Aplicando estilo CSS </h1>
+  <h2>Forma Inline</h2> <!--Basicamente aplicando de 1 e 1-->
+  <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, quod inventore. At veritatis, sapiente adipisci, odit modi consequatur suscipit, maiores sint quis omnis labore obcaecati! Deserunt, nulla? Odit, necessitatibus molestiae.</p><!--Isso pra quando for modificar uma tag em especifico-->
+  <h2> Segundo jeito </h2>
+  <p> É voce basicamente ir la no começo e aplicar a tag Style dentro da tag Head, depois digitar as tags que voce quer modificar e adicionar chaves{} Ex: h1{background-color:} </p><!--Isso para quando for modificar 1 pagina só-->
+  <h2> Terceiro jeito/Externo </h2>
+  <p> Usando um link dentro da tag head: (link rel="stylesheet" href="stenex.css") esse link voce usa nas paginas que voce quer modificar, voce pode usar mais de 1 link. </p><!--Modifica todas as paginas que tiverem esse link--></div>
+
+</body>
+</html>
